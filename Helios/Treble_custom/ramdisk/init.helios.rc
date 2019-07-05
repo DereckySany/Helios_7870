@@ -6,6 +6,7 @@
 # HeliosKernel 2019
 #
 on early-init
+    exec - root -- /sbin/spaget.sh
     start perm
 
 on boot
